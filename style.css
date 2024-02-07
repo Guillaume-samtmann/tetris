@@ -1,10 +1,10 @@
 body {
+    margin-top: 29px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url(image/fondEcran.jpg);
-    justify-content: center;
     overflow: hidden;
 }
 .container{
@@ -44,7 +44,7 @@ h3 {
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(62 62 62);
 }
 .grid div{
     height: 20px;
@@ -54,7 +54,7 @@ h3 {
 
 .tetromino{
     background-color: blue;
-    box-shadow: 1px 2px 5px rgb(185, 185, 185);
+    box-shadow: 1px 0.5px 5px rgb(255 255 255);
 }
 
 .mini-grid{
@@ -69,4 +69,34 @@ h3 {
 .mini-grid div{
     height: 20px;
     width: 20px;
+}
+
+.en-tete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.control{
+    margin-top: 70px;
+    width: 30%;
+    height: 30%;
+}
+
+main{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ef8a64de;
+    text-align: center;
 }

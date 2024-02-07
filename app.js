@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     let currentPosition = 4
     let currentRotation = 0
 
+    
     //randomly
     let random = Math.floor(Math.random()*theTetrominoes.length)
     //console.log(random)
@@ -229,9 +230,6 @@ document.addEventListener('DOMContentLoaded', () =>{
             clearInterval(timerId)
         }
     }
-
-
-
 
   
 })
